@@ -1,0 +1,26 @@
+dist*
+*.hi
+*.o
+.hsenv*
+cabal-dev/
+.stack-work/
+.cabal-sandbox
+cabal.sandbox.config
+.DS_Store
+*.dyn_o
+*.dyn_hi
+app/*.cpp
+src/**/*.cpp
+src/**/*.c
+*.so
+godot-haskell.cabal
+.ghc*
+
+doc/build/
+
+# osvr_server
+lighthousedb.json
+lhr-*/
+
+# emacs TAG file
+TAGS
